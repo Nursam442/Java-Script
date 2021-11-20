@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Menjalankan JavaScript</title>
+
+	<script type="text/javascript">
+        function tambah_kalimat() {
+            var a=document.getElementById("div_kalimat");
+            a.innerHTML+="<p>Nim saya adalah ....</p>";
+        }
+    </script>
+
+</head>
+<body>
+	<h1>JavaScript</h1>
+	<p>Menjalankan JavaScript</p>
+	Klik tombol ini untuk menambahkan kalimat baru:
+
+	<button id="tambah" onclick="tambah_kalimat()">Masukkan NIM Anda</button>
+
+	<div id="div_kalimat"></div>
+
+</body>
+</html>
